@@ -1,0 +1,11 @@
+version: '3'
+services:
+  nexus2:
+    image: 'sonatype/nexus:2.14.15-01'
+    restart: always
+    ports:
+      - "8010:8081"
+    volumes:
+      - ./data/nexus2/sonatype-work:/sonatype-work
+    container_name: nexus2
+

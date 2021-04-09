@@ -1,0 +1,44 @@
+version: "3"
+
+services:
+
+  app:
+    build:
+      context: app
+      # uncomment following lines for team edition or change UID/GID
+      args:
+        - edition=team
+        - PUID=1000
+        - PGID=1000
+    restart: unless-stopped
+    volumes:
+      - ./app/mattermost/config:/mattermost/config:rw
+      - ./app/mattermost/data:/mattermost/data:rw
+      - ./app/mattermost/logs:/mattermost/logs:rw
+      - ./app/mattermost/plugins:/mattermost/plugins:rw
+      - ./app/mattermost/client-plugins:/mattermost/client/plugins:rw
+      - /etc/localtime:/etc/localtime:ro
+    environment:
+      # set same as db credentials and dbname
+      - MM_USERNAME=mmost
+      - MM_PASSWORD=1
+      - MM_DBNAME=mmost
+
+      # use the credentials you've set above, in the format:
+      # MM_SQLSETTINGS_DATASOURCE=postgres://${MM_USERNAME}:${MM_PASSWORD}@db:5432/${MM_DBNAME}?sslmode=disable&connect_timeout=10
+      - MM_SQLSETTINGS_DATASOURCE=postgres://mmost:1@192.168.1.13:5432/mmost?sslmode=disable&connect_timeout=10
+
+      # in case your config is not in default location
+      #- MM_CONFIG=/mattermost/config/config.json
+
+  web:
+    build: web
+    ports:
+      - "8088:80"
+      - "8098:443"
+    read_only: true
+    restart: unless-stopped
+    volumes:
+      # This directory must have cert files if you want to enable SSL
+      - ./web/cert:/cert:ro
+      - /etc/localtime:/etc/localtime:ro

@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  gogs:
+    container_name: gogs
+    image: gogs/gogs-rpi
+    restart: unless-stopped
+    ports:
+      - "3033:3000"
+      - "3022:22"
+    volumes:
+      - /home/ubuntu/compose/data/gogs/data:/data

@@ -1,0 +1,14 @@
+version: '3.1'
+
+services:
+ db:
+  image: postgres:10.11
+  restart: always
+  ports:
+   - 5432:5432
+  environment:
+   POSTGRES_USER: postgres
+   POSTGRES_PASSWORD: postgres
+  volumes:
+   - /home/ubuntu/compose/data/pg10/data:/var/lib/postgresql/data
+  container_name: PostgreSQL

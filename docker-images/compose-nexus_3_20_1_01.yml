@@ -1,0 +1,10 @@
+version: '3'
+services:
+  nexus3:
+    volumes:
+      - /home/c68srv/docker/data/nexus3/nexus-data:/nexus-data
+    ports:
+      - "8011:8081"
+    restart: always
+    image: sonatype/nexus3
+    container_name: nexus3

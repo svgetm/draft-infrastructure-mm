@@ -1,0 +1,282 @@
+{"level":"info","ts":1587308742.424719,"caller":"utils/i18n.go:83","msg":"Loaded system translations","for locale":"en","from locale":"/mattermost/i18n/en.json"}
+{"level":"info","ts":1587308742.4250803,"caller":"app/server_app_adapters.go:58","msg":"Server is initializing..."}
+{"level":"info","ts":1587308742.432959,"caller":"sqlstore/supplier.go:221","msg":"Pinging SQL","database":"master"}
+{"level":"info","ts":1587308742.585312,"caller":"sqlstore/upgrade.go:112","msg":"The database schema version has been set","version":"5.21.0"}
+{"level":"error","ts":1587308742.8173368,"caller":"app/server_app_adapters.go:129","msg":"SiteURL must be set. Some features will operate incorrectly if the SiteURL is not set. See documentation for details: http://about.mattermost.com/default-site-url"}
+{"level":"info","ts":1587308742.8183117,"caller":"app/migrations.go:26","msg":"Migrating roles to database."}
+{"level":"info","ts":1587308742.8711936,"caller":"sqlstore/post_store.go:1354","msg":"Post.Message has size restrictions","max_characters":16383,"max_bytes":65535}
+{"level":"info","ts":1587308742.8735714,"caller":"app/migrations.go:102","msg":"Migrating emojis config to database."}
+{"level":"info","ts":1587308743.014729,"caller":"mlog/log.go:167","msg":"Starting up plugins"}
+{"level":"info","ts":1587308743.0148168,"caller":"app/plugin.go:199","msg":"Syncing plugins from the file store"}
+{"level":"info","ts":1587308744.3007112,"caller":"mlog/sugar.go:19","msg":"Ensuring Surveybot exists","plugin_id":"com.mattermost.nps"}
+{"level":"info","ts":1587308744.319523,"caller":"mlog/sugar.go:19","msg":"Surveybot created","plugin_id":"com.mattermost.nps"}
+{"level":"info","ts":1587308744.3260877,"caller":"mlog/sugar.go:19","msg":"Upgrade detected. Checking if a survey should be scheduled.","plugin_id":"com.mattermost.nps"}
+{"level":"info","ts":1587308744.3294752,"caller":"mlog/sugar.go:19","msg":"Scheduling next survey for May 10, 2020","plugin_id":"com.mattermost.nps"}
+{"level":"info","ts":1587308745.7849822,"caller":"app/server.go:232","msg":"Current version is 5.21.0 (5.21.0/Fri Mar 13 12:16:13 UTC 2020/f51c4f18f007494c3858fd029bf76819ff12ff1e/none)","current_version":"5.21.0","build_number":"5.21.0","build_date":"Fri Mar 13 12:16:13 UTC 2020","build_hash":"f51c4f18f007494c3858fd029bf76819ff12ff1e","build_hash_enterprise":"none"}
+{"level":"info","ts":1587308745.785024,"caller":"app/server.go:243","msg":"Team Edition Build","enterprise_build":false}
+{"level":"info","ts":1587308745.785047,"caller":"app/server.go:247","msg":"Printing current working","directory":"/mattermost"}
+{"level":"info","ts":1587308745.785055,"caller":"app/server.go:248","msg":"Loaded config","source":"file:///mattermost/config/config.json"}
+{"level":"error","ts":1587308745.8118215,"caller":"mlog/log.go:175","msg":"RPC call OnConfigurationChange to plugin failed.","plugin_id":"com.mattermost.nps","error":"connection is shut down"}
+{"level":"error","ts":1587308745.8525553,"caller":"mlog/log.go:175","msg":"RPC call OnConfigurationChange to plugin failed.","plugin_id":"com.mattermost.nps","error":"connection is shut down"}
+{"level":"info","ts":1587308745.8591423,"caller":"jobs/workers.go:68","msg":"Starting workers"}
+{"level":"info","ts":1587308745.859856,"caller":"jobs/schedulers.go:74","msg":"Starting schedulers."}
+{"level":"info","ts":1587308745.8713024,"caller":"app/web_hub.go:75","msg":"Starting websocket hubs","number_of_hubs":48}
+{"level":"info","ts":1587308745.911317,"caller":"app/server.go:470","msg":"Starting Server..."}
+{"level":"info","ts":1587308745.9113445,"caller":"app/server.go:496","msg":"RateLimiter is enabled"}
+{"level":"info","ts":1587308745.9115956,"caller":"app/server.go:538","msg":"Server is listening on [::]:8000","address":"[::]:8000"}
+{"level":"info","ts":1587308748.8708036,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=riy6wgnp9ins5yohiayacqusoa, err=<no value>, "}
+{"level":"info","ts":1587308748.930659,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=riy6wgnp9ins5yohiayacqusoa, err=<no value>, "}
+{"level":"info","ts":1587308748.9483645,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=riy6wgnp9ins5yohiayacqusoa, err=<no value>, "}
+{"level":"info","ts":1587308748.9484262,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=riy6wgnp9ins5yohiayacqusoa, err=<no value>, "}
+{"level":"info","ts":1587308748.9491968,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=riy6wgnp9ins5yohiayacqusoa, err=<no value>, "}
+{"level":"info","ts":1587308748.9503384,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=riy6wgnp9ins5yohiayacqusoa, err=<no value>, "}
+{"level":"info","ts":1587308748.9530334,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=riy6wgnp9ins5yohiayacqusoa, err=<no value>, "}
+{"level":"info","ts":1587308749.7035406,"caller":"app/server.go:372","msg":"Stopping Server..."}
+{"level":"info","ts":1587308749.7036176,"caller":"app/web_hub.go:125","msg":"stopping websocket hub connections"}
+{"level":"info","ts":1587308749.7059798,"caller":"app/plugin.go:266","msg":"Shutting down plugins"}
+{"level":"warn","ts":1587308749.7061057,"caller":"plugin/hclog_adapter.go:51","msg":"error closing client during Kill","plugin_id":"com.mattermost.nps","wrapped_extras":"errconnection is shut down"}
+{"level":"warn","ts":1587308749.7061906,"caller":"plugin/hclog_adapter.go:53","msg":"plugin failed to exit gracefully","plugin_id":"com.mattermost.nps"}
+{"level":"info","ts":1587308757.7477393,"caller":"jobs/workers.go:184","msg":"Stopped workers"}
+{"level":"info","ts":1587308757.7478375,"caller":"jobs/schedulers.go:145","msg":"Stopping schedulers."}
+{"level":"info","ts":1587308757.747879,"caller":"jobs/schedulers.go:77","msg":"Schedulers stopped."}
+{"level":"info","ts":1587308757.7479224,"caller":"sqlstore/supplier.go:916","msg":"Closing SqlStore"}
+{"level":"info","ts":1587308757.7484727,"caller":"app/server.go:414","msg":"Server stopped"}
+{"level":"info","ts":1587308759.9110684,"caller":"utils/i18n.go:83","msg":"Loaded system translations","for locale":"en","from locale":"/mattermost/i18n/en.json"}
+{"level":"info","ts":1587308759.9112775,"caller":"app/server_app_adapters.go:58","msg":"Server is initializing..."}
+{"level":"info","ts":1587308759.9142425,"caller":"sqlstore/supplier.go:221","msg":"Pinging SQL","database":"master"}
+{"level":"error","ts":1587308760.0043514,"caller":"app/server_app_adapters.go:129","msg":"SiteURL must be set. Some features will operate incorrectly if the SiteURL is not set. See documentation for details: http://about.mattermost.com/default-site-url"}
+{"level":"info","ts":1587308760.0121174,"caller":"mlog/log.go:167","msg":"Starting up plugins"}
+{"level":"info","ts":1587308760.0122302,"caller":"app/plugin.go:199","msg":"Syncing plugins from the file store"}
+{"level":"info","ts":1587308761.2945173,"caller":"mlog/sugar.go:19","msg":"Ensuring Surveybot exists","plugin_id":"com.mattermost.nps"}
+{"level":"info","ts":1587308762.778567,"caller":"app/server.go:232","msg":"Current version is 5.21.0 (5.21.0/Fri Mar 13 12:16:13 UTC 2020/f51c4f18f007494c3858fd029bf76819ff12ff1e/none)","current_version":"5.21.0","build_number":"5.21.0","build_date":"Fri Mar 13 12:16:13 UTC 2020","build_hash":"f51c4f18f007494c3858fd029bf76819ff12ff1e","build_hash_enterprise":"none"}
+{"level":"info","ts":1587308762.7786522,"caller":"app/server.go:243","msg":"Team Edition Build","enterprise_build":false}
+{"level":"info","ts":1587308762.7786934,"caller":"app/server.go:247","msg":"Printing current working","directory":"/mattermost"}
+{"level":"info","ts":1587308762.7787051,"caller":"app/server.go:248","msg":"Loaded config","source":"file:///mattermost/config/config.json"}
+{"level":"info","ts":1587308762.8182275,"caller":"sqlstore/post_store.go:1354","msg":"Post.Message has size restrictions","max_characters":16383,"max_bytes":65535}
+{"level":"info","ts":1587308762.8914826,"caller":"jobs/workers.go:68","msg":"Starting workers"}
+{"level":"info","ts":1587308762.8920906,"caller":"jobs/schedulers.go:74","msg":"Starting schedulers."}
+{"level":"info","ts":1587308762.9034069,"caller":"app/web_hub.go:75","msg":"Starting websocket hubs","number_of_hubs":48}
+{"level":"info","ts":1587308762.937244,"caller":"app/server.go:470","msg":"Starting Server..."}
+{"level":"info","ts":1587308762.937284,"caller":"app/server.go:496","msg":"RateLimiter is enabled"}
+{"level":"info","ts":1587308762.9375746,"caller":"app/server.go:538","msg":"Server is listening on [::]:8000","address":"[::]:8000"}
+{"level":"info","ts":1587308786.3075511,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=98uttmp7fpdu7esjrc8uwdjyuh, err=<no value>, "}
+{"level":"info","ts":1587308787.7308524,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=98uttmp7fpdu7esjrc8uwdjyuh, err=<no value>, "}
+{"level":"info","ts":1587308787.740755,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=98uttmp7fpdu7esjrc8uwdjyuh, err=<no value>, "}
+{"level":"info","ts":1587308787.8031318,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=98uttmp7fpdu7esjrc8uwdjyuh, err=<no value>, "}
+{"level":"info","ts":1587308787.8047035,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=98uttmp7fpdu7esjrc8uwdjyuh, err=<no value>, "}
+{"level":"info","ts":1587308787.8186958,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=98uttmp7fpdu7esjrc8uwdjyuh, err=<no value>, "}
+{"level":"info","ts":1587308787.8187912,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=98uttmp7fpdu7esjrc8uwdjyuh, err=<no value>, "}
+{"level":"info","ts":1587308787.8191402,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=98uttmp7fpdu7esjrc8uwdjyuh, err=<no value>, "}
+{"level":"info","ts":1587308830.8332534,"caller":"migrations/worker.go:109","msg":"Worker: Job is complete","worker":"Migrations","job_id":"s4jxijqt9prj58sycmme8esmhy"}
+{"level":"error","ts":1587308874.2498736,"caller":"app/user.go:175","msg":"Failed to send welcome email on create user from signup","error":"SendWelcomeEmail: Failed to send welcome email successfully, SendMail: Failed to open connection, dial tcp 127.0.0.1:10025: connect: connection refused"}
+{"level":"info","ts":1587323585.2508545,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=9cmuqrywxbyhpdqe7wp6gt8m9w, err=<no value>, "}
+{"level":"info","ts":1587323585.6549816,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=9cmuqrywxbyhpdqe7wp6gt8m9w, err=<no value>, "}
+{"level":"info","ts":1587323585.6591642,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=9cmuqrywxbyhpdqe7wp6gt8m9w, err=<no value>, "}
+{"level":"info","ts":1587323585.670674,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=9cmuqrywxbyhpdqe7wp6gt8m9w, err=<no value>, "}
+{"level":"info","ts":1587323585.6758025,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=9cmuqrywxbyhpdqe7wp6gt8m9w, err=<no value>, "}
+{"level":"info","ts":1587323585.6784077,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=9cmuqrywxbyhpdqe7wp6gt8m9w, err=<no value>, "}
+{"level":"info","ts":1587323585.6831694,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=9cmuqrywxbyhpdqe7wp6gt8m9w, err=<no value>, "}
+{"level":"info","ts":1587323585.6832294,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=9cmuqrywxbyhpdqe7wp6gt8m9w, err=<no value>, "}
+{"level":"error","ts":1587323586.3532345,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"w16591hauf8u7my1c47tnnz1wy","ip_addr":"176.193.121.168","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"error","ts":1587362033.0147433,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"44derucsx3ggfkjc6ypx5xnpia","ip_addr":"176.193.121.168","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"info","ts":1587365096.7188098,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=rnneaokzwbbkjmjup4m3jfbcha, err=<no value>, "}
+{"level":"info","ts":1587365097.350156,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=rnneaokzwbbkjmjup4m3jfbcha, err=<no value>, "}
+{"level":"info","ts":1587365097.3559408,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=rnneaokzwbbkjmjup4m3jfbcha, err=<no value>, "}
+{"level":"info","ts":1587365097.3890314,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=rnneaokzwbbkjmjup4m3jfbcha, err=<no value>, "}
+{"level":"info","ts":1587365097.396838,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=rnneaokzwbbkjmjup4m3jfbcha, err=<no value>, "}
+{"level":"info","ts":1587365097.397193,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=rnneaokzwbbkjmjup4m3jfbcha, err=<no value>, "}
+{"level":"info","ts":1587365097.4024897,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=rnneaokzwbbkjmjup4m3jfbcha, err=<no value>, "}
+{"level":"info","ts":1587365097.4034464,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=rnneaokzwbbkjmjup4m3jfbcha, err=<no value>, "}
+{"level":"error","ts":1587365099.703951,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"nx1dxcz1zbywxcm6966tddyywa","ip_addr":"176.193.121.168","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"error","ts":1587369150.4857013,"caller":"app/user.go:317","msg":"Couldn't save the user","error":"SqlUserStore.Save: An account with that email already exists., user_id=rp6u1kny3p83mk4eqpbb4mr3uc, pq: duplicate key value violates unique constraint \"users_email_key\""}
+{"level":"error","ts":1587369150.4858506,"caller":"mlog/log.go:175","msg":"An account with that email already exists.","path":"/api/v4/users","request_id":"1hy97y5qs7bkiq7fxa1yy4c8zh","ip_addr":"185.156.1.66","user_id":"","method":"POST","err_where":"SqlUserStore.Save","http_code":400,"err_details":"user_id=rp6u1kny3p83mk4eqpbb4mr3uc, pq: duplicate key value violates unique constraint \"users_email_key\""}
+{"level":"error","ts":1587369174.3866625,"caller":"app/user.go:138","msg":"Failed to send welcome email on create user with inviteId","error":"SendWelcomeEmail: Failed to send welcome email successfully, SendMail: Failed to open connection, dial tcp 127.0.0.1:10025: connect: connection refused"}
+{"level":"error","ts":1587369353.432468,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"xxxzf5akpfrmbxrh1ww39zur1w","ip_addr":"176.59.50.106","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"info","ts":1587369660.1030054,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=fxh5ks9t3pguud5cbasuatsjhr, err=<no value>, "}
+{"level":"info","ts":1587369663.8643742,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=fxh5ks9t3pguud5cbasuatsjhr, err=<no value>, "}
+{"level":"info","ts":1587369663.865098,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=fxh5ks9t3pguud5cbasuatsjhr, err=<no value>, "}
+{"level":"info","ts":1587369663.9016268,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=fxh5ks9t3pguud5cbasuatsjhr, err=<no value>, "}
+{"level":"info","ts":1587369663.9024045,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=fxh5ks9t3pguud5cbasuatsjhr, err=<no value>, "}
+{"level":"info","ts":1587369663.9030027,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=fxh5ks9t3pguud5cbasuatsjhr, err=<no value>, "}
+{"level":"info","ts":1587369663.9046052,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=fxh5ks9t3pguud5cbasuatsjhr, err=<no value>, "}
+{"level":"info","ts":1587369663.9188108,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=fxh5ks9t3pguud5cbasuatsjhr, err=<no value>, "}
+{"level":"error","ts":1587369672.2627761,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"tayftkthmfgbzddoh7x9a5prxc","ip_addr":"176.15.68.101","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587369686.0427155,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"8siwa3d4kfga5p1csr8b1gt38e","ip_addr":"176.15.68.101","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587369689.4966304,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"o3h699jxqpy4tp4rrgc8f3a8gh","ip_addr":"176.15.68.101","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587369705.2745998,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"k5xh1rc8npba8dqkn9cdar7iur","ip_addr":"176.15.68.101","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587369848.468322,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"mhpgdx4oqpnapebjbk9s17x8yc","ip_addr":"176.15.68.101","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587374639.5494373,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"uu4qm71qwbnq7njs619pa4p5fc","ip_addr":"176.193.121.168","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"info","ts":1587395168.9517941,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"gdp14sajb3yo7rz6fsjjnsj3uy"}
+{"level":"error","ts":1587397130.3497927,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"1ga1xcwr13gw8nf7n3u7fhxh4w","ip_addr":"176.193.121.168","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"error","ts":1587444254.2191837,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"zddamoqjutdxp8rgdogwzbit7o","ip_addr":"176.193.121.168","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"error","ts":1587450830.4158084,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"oyrttto5otrx5po8yyurdgzmca","ip_addr":"83.220.237.99","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587450853.3262088,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"zywr1tfkeibypyuzy7mbco7m4e","ip_addr":"83.220.237.99","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587450854.7249682,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"feuidmxewbfjbcrhgu4bwora5a","ip_addr":"83.220.237.99","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587459741.8390143,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"syd9jfybhpbcpk88buq4j67sra","ip_addr":"176.193.121.168","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"error","ts":1587460183.8512204,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"jfyxiwqknpfqig8wy5m7jag36a","ip_addr":"176.193.121.168","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"error","ts":1587466092.6372368,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"g8m14uzf5byc7ybpwmamyjbhfe","ip_addr":"176.193.121.168","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"info","ts":1587481566.89884,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"3nzwjxohnjdoddmddtbcr3m4de"}
+{"level":"error","ts":1587531636.2348173,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"afxxxf5gm7b4byhyk4no3fue1e","ip_addr":"176.193.121.168","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"error","ts":1587540544.4105523,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"doqs4i89ctrrf8wp55iqzcx1ga","ip_addr":"95.84.209.91","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"info","ts":1587541333.7408338,"caller":"config/watcher.go:62","msg":"Config file watcher detected a change","path":"/mattermost/config/config.json"}
+{"level":"info","ts":1587541333.7409604,"caller":"config/watcher.go:62","msg":"Config file watcher detected a change","path":"/mattermost/config/config.json"}
+{"level":"info","ts":1587541833.6299202,"caller":"app/server.go:372","msg":"Stopping Server..."}
+{"level":"info","ts":1587541833.630079,"caller":"app/web_hub.go:125","msg":"stopping websocket hub connections"}
+{"level":"info","ts":1587541833.6360455,"caller":"app/plugin.go:266","msg":"Shutting down plugins"}
+{"level":"info","ts":1587541833.6598341,"caller":"jobs/workers.go:184","msg":"Stopped workers"}
+{"level":"info","ts":1587541833.6598861,"caller":"jobs/schedulers.go:145","msg":"Stopping schedulers."}
+{"level":"info","ts":1587541833.6599245,"caller":"jobs/schedulers.go:77","msg":"Schedulers stopped."}
+{"level":"info","ts":1587541833.6599548,"caller":"sqlstore/supplier.go:916","msg":"Closing SqlStore"}
+{"level":"info","ts":1587541833.6604185,"caller":"app/server.go:414","msg":"Server stopped"}
+{"level":"info","ts":1587541840.8266375,"caller":"utils/i18n.go:83","msg":"Loaded system translations","for locale":"en","from locale":"/mattermost/i18n/en.json"}
+{"level":"info","ts":1587541840.8269286,"caller":"app/server_app_adapters.go:58","msg":"Server is initializing..."}
+{"level":"info","ts":1587541840.8341553,"caller":"sqlstore/supplier.go:221","msg":"Pinging SQL","database":"master"}
+{"level":"error","ts":1587541840.9157877,"caller":"app/server_app_adapters.go:129","msg":"SiteURL must be set. Some features will operate incorrectly if the SiteURL is not set. See documentation for details: http://about.mattermost.com/default-site-url"}
+{"level":"info","ts":1587541840.923262,"caller":"mlog/log.go:167","msg":"Starting up plugins"}
+{"level":"info","ts":1587541840.9233825,"caller":"app/plugin.go:199","msg":"Syncing plugins from the file store"}
+{"level":"info","ts":1587541840.944424,"caller":"app/plugin.go:252","msg":"Syncing plugin from file store","bundle":"plugins/com.mattermost.webex.tar.gz"}
+{"level":"info","ts":1587541843.5459633,"caller":"mlog/sugar.go:19","msg":"Ensuring Surveybot exists","plugin_id":"com.mattermost.nps"}
+{"level":"info","ts":1587541844.614427,"caller":"app/server.go:232","msg":"Current version is 5.21.0 (5.21.0/Fri Mar 13 12:16:13 UTC 2020/f51c4f18f007494c3858fd029bf76819ff12ff1e/none)","current_version":"5.21.0","build_number":"5.21.0","build_date":"Fri Mar 13 12:16:13 UTC 2020","build_hash":"f51c4f18f007494c3858fd029bf76819ff12ff1e","build_hash_enterprise":"none"}
+{"level":"info","ts":1587541844.6144814,"caller":"app/server.go:243","msg":"Team Edition Build","enterprise_build":false}
+{"level":"info","ts":1587541844.6145072,"caller":"app/server.go:247","msg":"Printing current working","directory":"/mattermost"}
+{"level":"info","ts":1587541844.6145165,"caller":"app/server.go:248","msg":"Loaded config","source":"file:///mattermost/config/config.json"}
+{"level":"info","ts":1587541844.649199,"caller":"sqlstore/post_store.go:1354","msg":"Post.Message has size restrictions","max_characters":16383,"max_bytes":65535}
+{"level":"info","ts":1587541844.6924958,"caller":"jobs/workers.go:68","msg":"Starting workers"}
+{"level":"info","ts":1587541844.6928089,"caller":"jobs/schedulers.go:74","msg":"Starting schedulers."}
+{"level":"info","ts":1587541844.7040358,"caller":"app/web_hub.go:75","msg":"Starting websocket hubs","number_of_hubs":48}
+{"level":"info","ts":1587541844.7449138,"caller":"app/server.go:470","msg":"Starting Server..."}
+{"level":"info","ts":1587541844.7449398,"caller":"app/server.go:496","msg":"RateLimiter is enabled"}
+{"level":"info","ts":1587541844.7451894,"caller":"app/server.go:538","msg":"Server is listening on [::]:8000","address":"[::]:8000"}
+{"level":"info","ts":1587565886.8629537,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=7yirf9jj8785ibgen6sfgqx4jy, err=<no value>, "}
+{"level":"info","ts":1587565887.6654634,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=7yirf9jj8785ibgen6sfgqx4jy, err=<no value>, "}
+{"level":"info","ts":1587565887.6949642,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=7yirf9jj8785ibgen6sfgqx4jy, err=<no value>, "}
+{"level":"info","ts":1587565887.6976876,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=7yirf9jj8785ibgen6sfgqx4jy, err=<no value>, "}
+{"level":"info","ts":1587565887.893845,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=7yirf9jj8785ibgen6sfgqx4jy, err=<no value>, "}
+{"level":"info","ts":1587565888.03047,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=7yirf9jj8785ibgen6sfgqx4jy, err=<no value>, "}
+{"level":"info","ts":1587565888.0305674,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=7yirf9jj8785ibgen6sfgqx4jy, err=<no value>, "}
+{"level":"info","ts":1587565888.228958,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=7yirf9jj8785ibgen6sfgqx4jy, err=<no value>, "}
+{"level":"info","ts":1587565888.234733,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=7yirf9jj8785ibgen6sfgqx4jy, err=<no value>, "}
+{"level":"info","ts":1587565888.2377675,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=7yirf9jj8785ibgen6sfgqx4jy, err=<no value>, "}
+{"level":"error","ts":1587574511.2919624,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"xs19p1h617yapmax7dohne44yy","ip_addr":"176.59.38.112","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587574517.8945255,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"tpououizst8ax8k3yrx87nzwth","ip_addr":"176.59.38.112","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587574529.736948,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"sywfr3ho9bdmjg47jxthyu3zir","ip_addr":"176.59.38.112","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587574536.2374897,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"deur3cskh3gidc56yz7f5uq8uw","ip_addr":"176.59.38.112","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587574544.063878,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"prte3cp8wi8p9d8198motdsapw","ip_addr":"176.59.38.112","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"info","ts":1587574558.3793979,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=k3uthccyyirxur7p5q6kwt84pc, err=<no value>, "}
+{"level":"info","ts":1587574598.621825,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=k3uthccyyirxur7p5q6kwt84pc, err=<no value>, "}
+{"level":"error","ts":1587574598.6219645,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"48s3ioecnfbbzxzgn44qo7x78a","ip_addr":"176.59.38.112","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"info","ts":1587574603.019793,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=k3uthccyyirxur7p5q6kwt84pc, err=<no value>, "}
+{"level":"info","ts":1587574603.0231638,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=k3uthccyyirxur7p5q6kwt84pc, err=<no value>, "}
+{"level":"info","ts":1587574603.1922357,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=k3uthccyyirxur7p5q6kwt84pc, err=<no value>, "}
+{"level":"info","ts":1587574603.2075987,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=k3uthccyyirxur7p5q6kwt84pc, err=<no value>, "}
+{"level":"info","ts":1587574603.3240578,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=k3uthccyyirxur7p5q6kwt84pc, err=<no value>, "}
+{"level":"info","ts":1587574603.3250227,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=k3uthccyyirxur7p5q6kwt84pc, err=<no value>, "}
+{"level":"info","ts":1587574603.333741,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=k3uthccyyirxur7p5q6kwt84pc, err=<no value>, "}
+{"level":"error","ts":1587574614.7608387,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"jhdu3xr3o786trn8d7ohwnzbny","ip_addr":"176.59.38.112","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587574621.4642425,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"11queizgw7rfdk69zcfqqjzx9h","ip_addr":"176.59.38.112","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587574629.140021,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"k1wpo4jia7dbtnxoxbd5h98k3h","ip_addr":"176.59.38.112","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587574650.0348067,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"r8r1i9fk83dd7dpnxm57tw5u3w","ip_addr":"176.59.38.112","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587574660.1876311,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"6k8caz5dkbyibkf5wgc1e7swpo","ip_addr":"176.59.38.112","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587574810.4554017,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"ejf4ie8phfr8zgrroddgwfdzyy","ip_addr":"176.59.38.112","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587574811.7757494,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"xo4zpkk15tdwddjhth531wi48a","ip_addr":"176.59.38.112","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587574897.9814694,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"rkdcejygj3gtxnym76nce1ok6r","ip_addr":"176.59.38.112","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"error","ts":1587574979.7336614,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"ny4toynjp7f4be55pmjreoei6w","ip_addr":"176.59.38.112","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"error","ts":1587576965.5951486,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"6mkn3uu7btneudko7wh99965xo","ip_addr":"176.193.121.168","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"error","ts":1587579450.334907,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"rwmnuuh1kpybjr7imqys6k74gh","ip_addr":"176.59.38.112","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"error","ts":1587584717.960384,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"g8drndqpgbyimbigi38ywt794e","ip_addr":"176.15.68.101","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"info","ts":1587628396.5890346,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"8dbqfhu8qbn5uc1pjuk79ajfro"}
+{"level":"error","ts":1587636238.3210413,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"bf5bmzfbrigsin15wedyg8b1rr","ip_addr":"176.15.68.101","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"info","ts":1587645948.487904,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=hoxnqo4y6tg19y81u9s6px74yh, err=<no value>, "}
+{"level":"info","ts":1587645948.6067932,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=hoxnqo4y6tg19y81u9s6px74yh, err=<no value>, "}
+{"level":"info","ts":1587645948.618973,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=hoxnqo4y6tg19y81u9s6px74yh, err=<no value>, "}
+{"level":"info","ts":1587645948.6247227,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=hoxnqo4y6tg19y81u9s6px74yh, err=<no value>, "}
+{"level":"info","ts":1587645948.626052,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=hoxnqo4y6tg19y81u9s6px74yh, err=<no value>, "}
+{"level":"info","ts":1587645948.6436713,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=hoxnqo4y6tg19y81u9s6px74yh, err=<no value>, "}
+{"level":"info","ts":1587645948.6437745,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=hoxnqo4y6tg19y81u9s6px74yh, err=<no value>, "}
+{"level":"error","ts":1587654162.9720085,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"h1n3psh4gtg9jrmto8kx3mq5ma","ip_addr":"176.193.121.168","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"info","ts":1587714805.9651208,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"ddjy4793gbfh9ky8g36yh8jpue"}
+{"level":"error","ts":1587736190.1258476,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"u8p8fd7z4id1b8pbqqb7cgn47w","ip_addr":"176.193.121.168","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"error","ts":1587796465.1001534,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"tw4mna359pn5pdohs8rz7maq4a","ip_addr":"176.193.121.168","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"info","ts":1587801200.4819026,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"81sqyrfns7g9xjgkedrsrykr6c"}
+{"level":"error","ts":1587829818.2876992,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"pqhg7bnrqfnijqzexpzqq1fgna","ip_addr":"176.193.121.168","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"error","ts":1587882236.2206929,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"3w1hm5dr7pdofnrniub3d59ggy","ip_addr":"176.193.121.168","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"info","ts":1587887594.744314,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"qsc37d84njyt9ju9isyt65gb5r"}
+{"level":"error","ts":1587919242.4715567,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"ab1jotiprtrfmfyb65i3jh1ajr","ip_addr":"176.193.121.168","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"info","ts":1587963912.6241765,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=38a56a4ihpnuxewupqkw1jxxmr, err=<no value>, "}
+{"level":"info","ts":1587963915.2710161,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=38a56a4ihpnuxewupqkw1jxxmr, err=<no value>, "}
+{"level":"info","ts":1587963915.2789292,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=38a56a4ihpnuxewupqkw1jxxmr, err=<no value>, "}
+{"level":"info","ts":1587963915.319462,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=38a56a4ihpnuxewupqkw1jxxmr, err=<no value>, "}
+{"level":"info","ts":1587963915.3198452,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=38a56a4ihpnuxewupqkw1jxxmr, err=<no value>, "}
+{"level":"info","ts":1587963915.321534,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=38a56a4ihpnuxewupqkw1jxxmr, err=<no value>, "}
+{"level":"info","ts":1587963915.3269708,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=38a56a4ihpnuxewupqkw1jxxmr, err=<no value>, "}
+{"level":"info","ts":1587963915.3560085,"caller":"mlog/log.go:167","msg":"Invalid session","error":"GetSession: Invalid session token=38a56a4ihpnuxewupqkw1jxxmr, err=<no value>, "}
+{"level":"error","ts":1587963921.8031638,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"n7u5chyh13rfzbqwkzeaa5p5dy","ip_addr":"213.87.160.105","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587963924.3070362,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"osa4rzm3oiy89jejhpqtowj9sc","ip_addr":"213.87.160.105","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587963925.0298576,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"my13y3tm7bboipe73kt339hh1y","ip_addr":"213.87.160.105","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587963937.5514703,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"aea6n4ekft8wtcdisayta4k9kr","ip_addr":"213.87.160.105","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587963938.4059107,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"kaysqo59gj873mqbx55am66b1e","ip_addr":"213.87.160.105","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587963944.6049519,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"o1qzaoq38pdcjnwmk4msttasra","ip_addr":"213.87.160.105","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587963945.2658195,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"z3ghmjsasb89tftoy5xhzgeaxw","ip_addr":"213.87.160.105","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1587966709.750902,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"fjqaf5mzy7gi9kpebyup4x8try","ip_addr":"176.193.121.168","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"info","ts":1587974004.0138855,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"5azy8htrbtgwimkwfdtmr3na3w"}
+{"level":"error","ts":1587981266.507587,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"4mgqra9eyibj9pwowinow9fiur","ip_addr":"176.15.68.101","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1588000444.5177968,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"nj5xqp6517bnjyhmt8tjt1muaa","ip_addr":"176.193.121.168","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"error","ts":1588018344.6391456,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"iiexnwii7tdodbnci6g1agkiao","ip_addr":"176.193.121.168","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"error","ts":1588049087.3948712,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"oxsgaijm4tnu3gd6n4udodznbo","ip_addr":"176.193.251.232","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"info","ts":1588060398.4664676,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"e1sptmyjufrg8gk9uh4sb3kn5e"}
+{"level":"error","ts":1588135708.1558828,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"nbd7yyx64i8y88k5r3a791qtzw","ip_addr":"176.193.251.232","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"info","ts":1588146807.8123074,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"keffxnyqbp8muee3yenit1hm7a"}
+{"level":"error","ts":1588182454.7163627,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"pr7xnc3i3jg8xrkdaae9bdzsse","ip_addr":"176.193.251.232","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"error","ts":1588231421.0766106,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"eazi8tsepig6prnz715pw3rgry","ip_addr":"83.220.239.2","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1588231431.9246318,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"hi99tk17rbdr3j5ojkrriemk1y","ip_addr":"83.220.239.2","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"info","ts":1588233202.3372102,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"8zubdajdd7bejgwm74nrbews7o"}
+{"level":"error","ts":1588312658.722722,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"sjku3dhbh3fj9pjce4cc98rkah","ip_addr":"176.193.251.232","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"info","ts":1588319596.824932,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"13qo7q85gibuzyqsyhojz6pzsc"}
+{"level":"error","ts":1588327642.6052947,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"ed9od3m1p3nsjryrd7di797k1y","ip_addr":"176.193.251.232","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"error","ts":1588340029.7193766,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"mgtkiia7w7b4ieh4wpsn7fbyme","ip_addr":"213.87.149.68","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1588340053.268777,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"18kmpzsg8idd5kd8qxtq893pia","ip_addr":"213.87.149.68","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1588340053.9660492,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"6fqhsy9apfgdtfbaf4tfmmnk8e","ip_addr":"213.87.149.68","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1588340064.505914,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"qazm8bbok3b9tmoconrrsj6zuc","ip_addr":"213.87.149.68","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"error","ts":1588340065.2441874,"caller":"mlog/log.go:175","msg":"Enter a valid email or username and/or password.","path":"/api/v4/users/login","request_id":"jnshdkw6x3d578dck6ff6jxipe","ip_addr":"213.87.149.68","user_id":"","method":"POST","err_where":"login","http_code":401,"err_details":""}
+{"level":"info","ts":1588406006.2316139,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"xdd4nd5kpfdmzx8ptc89ta5d5y"}
+{"level":"info","ts":1588492400.7456489,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"isj16muf7j8rfnhp6jjqytqskw"}
+{"level":"error","ts":1588502001.1611083,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"x6nse5wph3rkpnmkegq3k6psby","ip_addr":"176.193.63.215","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"error","ts":1588502200.8404174,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"nscad4zjp7bk3xxyye74k8rgea","ip_addr":"176.193.63.215","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"error","ts":1588512738.9338286,"caller":"mlog/log.go:175","msg":"You do not have the appropriate permissions","path":"/api/v4/logs","request_id":"pjonbw5ssf8o3kmmcyw88aipqe","ip_addr":"176.193.63.215","user_id":"","method":"POST","err_where":"postLog","http_code":403,"err_details":""}
+{"level":"info","ts":1588578795.16048,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"wyhcj3msx3yojdn9o5iex4egty"}
+{"level":"info","ts":1588665204.5840714,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"g8zpw6fifin53c7fiiy9ir9f6a"}
+{"level":"info","ts":1588751599.174804,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"wd4s754pe3nzbqzyud66udryzw"}
+{"level":"info","ts":1588838008.5658743,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"hz6erpkq4fr67xeisnruy9mrar"}
+{"level":"info","ts":1588924403.080116,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"gu8d19smptb1dkkpd6d5mkw65r"}
+{"level":"info","ts":1589010797.543802,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"qz5rr83sabbqx8r1u4eno9mfmo"}
+{"level":"info","ts":1589097207.2521236,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"ntctyht3wfgf3prgwn5u9n5c8a"}
+{"level":"info","ts":1589183601.8793554,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"haupeqhyajdt88yw4rfwn65doe"}
+{"level":"info","ts":1589270011.4258614,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"b1frb8iwnbgztc78ikx8amhsac"}
+{"level":"info","ts":1589356405.933932,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"wsz7zfdeh7gh9kcmmsfchhmynh"}
+{"level":"info","ts":1589442800.6467328,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"s4zfc9og6bnzmmnwjfza1x9i9c"}
+{"level":"info","ts":1589529210.0945332,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"7nse411wqifq7muerbewuei7ge"}
+{"level":"info","ts":1589615604.56038,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"gbp3n9y1t3813cbw1uy3wc53ow"}
+{"level":"info","ts":1589701999.2223117,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"a1s1c1f77bdijxia7quqn5dsoa"}
+{"level":"info","ts":1589788408.6876595,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"6qxdwghdh3gdtxqz7fj6sa819y"}
+{"level":"info","ts":1589874803.444059,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"dcoinm6rx3ysunytbesu4a9fse"}
+{"level":"info","ts":1589961212.92853,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"f85yz95th3ncmkgbfwuddwd3ey"}
+{"level":"info","ts":1590047607.3939264,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"t5iw7z88zpbhb8sepn4kmwrsuw"}
+{"level":"info","ts":1590134001.8722668,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"4s7sxdnntpnjtn5umyda45iyqc"}
+{"level":"info","ts":1590220411.5019348,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"4znzphb4xtg67eprb3k318cs9r"}
+{"level":"info","ts":1590306805.948219,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"n6akoarxubg6uehf9z5mofx81o"}
+{"level":"info","ts":1590393215.550319,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"8pitgz74jjbwtyaerqu5j8y78e"}
+{"level":"info","ts":1590479610.2871547,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"htydtruiatd698ogfybdn4a1ie"}
+{"level":"info","ts":1590566004.7580254,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"dsrkd8jp1brrubom364fauo1ir"}
+{"level":"info","ts":1590652414.4327607,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"njjrh7jwuin47dmda1hpnwd81e"}
+{"level":"info","ts":1590738809.0836005,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"kwt3hkn7pi8m7nk8o5xkinu9ka"}
+{"level":"info","ts":1590825203.7859826,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"ht3agk7ytfr3zxjrkkapnju8cr"}
+{"level":"info","ts":1590911613.4052873,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"e1acw4pt9tf39jisbyi6338nwc"}
+{"level":"info","ts":1590998008.0162776,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"p51qg56xctf3mqab74p6mrwq8o"}
+{"level":"info","ts":1591084417.6601121,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"i7b1dxeo7irp58xeqnu1rdmokh"}
+{"level":"info","ts":1591170812.484649,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"hkei6niwy7g35k6e9gptqaejre"}
+{"level":"info","ts":1591257207.0373843,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"nea4ptp5y7nnfpmxskdxgux39e"}
+{"level":"info","ts":1591343616.7408395,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"ff4d5snm3jfb3bj4h1xdaofeuh"}
+{"level":"info","ts":1591430011.3675187,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"u7kr6g8o9pgbmdtoq11gkaq8aw"}
+{"level":"info","ts":1591516405.9435165,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"rsdxf5rnjtgmikwpwcyn5smy3a"}
+{"level":"info","ts":1591602815.691304,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"nhisnnouriykmy7uarwx5yjntc"}
+{"level":"info","ts":1591689210.4603744,"caller":"scheduler/worker.go:82","msg":"Worker: Job is complete","worker":"Plugins","job_id":"qt8bqoggfighjfaozjphafqmre"}
